@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Collaborative_code_editor from "../../Assets/Projects/Collaborative_code_editor.jpg";
+import SmartHome from "../../Assets/Projects/SmartHome-Automation-dashboard.jpg";
+import Customer_support_chatbot from "../../Assets/Projects/Customer_support_chatbot.jpg";
+import Ai_based_Ecommerce_web_app from "../../Assets/Projects/Ai_based_Ecommerce_web_app.jpg";
+import AI_Fitness_trainer from "../../Assets/Projects/AI_Fitness_trainer.jpg";
+import Portfolio_Builder from "../../Assets/Projects/Portfolio_Builder.jpg";
 
 function Projects() {
   return (
@@ -23,68 +23,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Ai_based_Ecommerce_web_app}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="AI-Powered E-Commerce Platform"
+              description="A full-stack e-commerce website integrated with AI for personalized product recommendations. Built with React, Node.js, and TensorFlow.js for real-time user behavior analysis."
+              ghLink="https://github.com/ErdeiArpad/Ai-based-Ecommerce-web-app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Portfolio_Builder}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Portfolio Website Builder"
+              description="A dynamic website builder for creating personalized portfolios. Features drag-and-drop functionality, AI-driven design suggestions, and responsive templates. Developed using Vue.js and Flask."
+              ghLink="https://github.com/ErdeiArpad/Portfolio-Builder"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Customer_support_chatbot}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="AI Chatbot for Customer Support"
+              description="A chatbot integrated into a website for automated customer support. Uses natural language processing (NLP) with OpenAI's GPT-4 and is deployed using Django and React."
+              ghLink="https://github.com/ErdeiArpad/customer-support-chatbot"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Collaborative_code_editor}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Real-Time Collaborative Code Editor"
+              description="A web-based code editor with real-time collaboration features. Built with WebSockets, React, and Node.js. Includes AI-powered code completion using Codex."
+              ghLink="https://github.com/ErdeiArpad/Collaborative-code-editor"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={AI_Fitness_trainer}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="AI-Driven Fitness Tracker"
+              description="A fitness tracking web app that uses AI to analyze workout data and provide personalized recommendations. Built with Angular, Express, and Python for AI modeling."
+              ghLink="https://github.com/ErdeiArpad/AI-Fitness-trainer"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={SmartHome}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Smart Home Automation Dashboard"
+              description="A full-stack dashboard for controlling smart home devices. Integrates IoT APIs and AI for predictive automation. Developed with React, Node.js, and TensorFlow Lite."
+              ghLink="https://github.com/ErdeiArpad/my-home-automation-dashboard"
             />
           </Col>
         </Row>
