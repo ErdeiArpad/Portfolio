@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="AI-Powered E-Commerce Platform"
               description="A full-stack e-commerce website integrated with AI for personalized product recommendations. Built with React, Node.js, and TensorFlow.js for real-time user behavior analysis."
-              ghLink="https://github.com/ErdeiArpad/Ai-based-Ecommerce-web-app"
+              ghLink="https://github.com/ErdeiArpad/Smartstore"
             />
           </Col>
 
@@ -65,9 +65,9 @@ function Projects() {
             <ProjectCard
               imgPath={AI_Fitness_trainer}
               isBlog={false}
-              title="AI-Driven Fitness Tracker"
-              description="A fitness tracking web app that uses AI to analyze workout data and provide personalized recommendations. Built with Angular, Express, and Python for AI modeling."
-              ghLink="https://github.com/ErdeiArpad/AI-Fitness-trainer"
+              title="Data Analysis and Machine Learning"
+              description="Data analysis involves inspecting, cleaning, and modeling data to discover useful information. Machine learning, a subset, uses algorithms to learn from data, enabling predictions and decision-making based on patterns."
+              ghLink="https://github.com/ErdeiArpad/Data-Analysis-and-Machine"
             />
           </Col>
 
@@ -77,7 +77,7 @@ function Projects() {
               isBlog={false}
               title="Smart Home Automation Dashboard"
               description="A full-stack dashboard for controlling smart home devices. Integrates IoT APIs and AI for predictive automation. Developed with React, Node.js, and TensorFlow Lite."
-              ghLink="https://github.com/ErdeiArpad/my-home-automation-dashboard"
+              ghLink="https://github.com/ErdeiArpad/Smart-Home-Automation"
             />
           </Col>
         </Row>
